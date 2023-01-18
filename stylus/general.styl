@@ -1,0 +1,163 @@
+@import "mixin.styl"
+@import "variables.styl"
+
+body 
+    margin 0
+
+
+h1,h2,h3,h4,h5,h6,p
+    margin-block-start 0
+    margin-block-end 0
+    margin-inline-start 0
+    margin-inline-end 0
+    letter-spacing 0
+    font-weight 400
+    text-align left
+    color text-title-color
+
+h1
+    font-size 40px
+    line-height 40px
+    font-weight 500
+
+h3  
+    font-size 24px
+    line-height 36px
+
+h4
+    font-size 20px
+    line-height 28px
+
+h5 
+    font-size 16px
+    line-height 24px
+
+p
+    font-size 14px
+    line-height 20px
+
+b
+    color pink
+    font-weight 500
+
+
+.sharebtn
+    background black
+    border-radius 4px
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing border-box
+    -webkit-text-fill-color: white
+    padding 6px 16px
+    transition: 0.08s;
+
+.sharebtn img
+    width 16px !important
+    height 16px !important
+
+.sharebtn h5
+    margin-left 6px
+
+.sharebtn:hover
+    background sharebtnhover
+    cursor pointer
+
+
+
+.jumpbtn 
+    alignVCenter()
+    padding 6px 16px
+    gap 6px
+    background black
+    border-radius 4px
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing border-box
+    -webkit-text-fill-color: white
+    width 118px
+    transition: 0.08s;
+
+.jumpbtn svg
+    width 16px 
+    height 16px 
+
+.jumpbtn path
+    stroke white
+
+
+.jumpbtn h5
+    margin 0px !important
+
+
+.jumpbtn:hover
+    background sharebtnhover
+    cursor pointer
+
+
+
+.secondbtn 
+    alignVCenter()
+    padding 6px 16px
+    gap 6px
+    border-radius 4px
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing border-box
+    height 36px
+    width 118px
+    background white
+    -webkit-text-fill-color black
+    border 0.5px solid rgba(0, 0, 0, 0.10)
+    margin-left 16px !important
+    transition: 0.08s;
+
+
+.secondbtn svg
+    width 16px 
+    height 16px 
+
+.secondbtn path
+    stroke text-paragraph-color
+
+
+.secondbtn h5
+    margin 0px !important
+
+
+.secondbtn:hover
+    background #f3f4f5
+    cursor pointer
+
+
+
+.contentbox
+    alignVCenter() 
+    padding-top 160px
+
+.boxsubtitle
+    margin 20px 0 64px
+
+.titlewbtn svg
+    width 20px 
+    height 20px 
+    opacity .78
+    z-index 0
+
+.titlewbtn svg:hover
+    opacity 1
+    cursor pointer
+
+.titlewbtn
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+
+#resource .titlewbtn 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 6px

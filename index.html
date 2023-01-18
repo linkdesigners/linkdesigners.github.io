@@ -1,0 +1,448 @@
+<html>
+
+<head>
+    <title>Link Designers</title>
+    <link rel="icon" type="image/x-icon" href="src/icon/favicon.svg">
+    <link rel="stylesheet" href="style.css">
+    <script src="myscripts.js"></script>
+</head>
+
+<body>
+    <!-- Top Nav -->
+    <div id="topNav">
+        <div id="topNavContent">
+            <img src="src/img/nav/Frame 27721.png" alt="LinkD Logo">
+            <div class="sharebtn" onclick="copyURL()">
+                <img src="src/icon/fill-share-two.svg">
+                <p>分享站点</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Hero -->
+    <div id="hero">
+        <h1>汇总设计资源<br>
+            打造<b>更流畅</b>的工作体验</h1>
+            <div class="sharebtn" onclick="copyURL()">
+                <img src="src/icon/fill-share-two.svg">
+                <h5>分享给我的同事</h5>
+            </div>
+        <img src="src/img/heroimg.png" alt="heroimg">
+    </div>
+
+
+
+    <!-- Get Started -->
+    <div id="getStarted" class="contentbox">
+        <h1 class="boxtitle">快速开始</h1>
+        <h3 class="boxsubtitle"><b>0 基础上手</b>搭建清晰好看的设计方案</h3>
+
+        <div id="gscardrow">
+            <div class="cardHolder" id="gscard1">
+                <div>
+                    <img src="src/img/getStarted/gs1.png">
+                    <h3>5 分钟上手 Figma</h3>
+                    <h5>手把手教你 Figma 注册、绘图和常用技巧</h5>
+                    <div class="jumpbtn"
+                         onclick="window.open('https://doc.weixin.qq.com/doc/w3_ATQAtwa6AN0me5b97aMQ9y3N3HpQ0?scode=ANAAyQcbAAgnOeBRcpATQAtwa6AN0','_blank')">
+                        <h5>查看文档</h5>
+                        <svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M28 6H42V20" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 29.4737V39C42 40.6569 40.6569 42 39 42H9C7.34315 42 6 40.6569 6 39V9C6 7.34315 7.34315 6 9 6L18 6" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M25.7998 22.1999L41.0998 6.8999" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cardHolder" id="gscard2">
+                <div >
+                    <img src="src/img/getStarted/gs2.png">
+                    <h3>Web 端产品原型套件</h3>
+                    <h5>最常用的组件和模板，快速产出原型图</h5>
+                    <div class="jumpbtn"
+                         onclick="window.open('https://doc.weixin.qq.com/doc/w3_ATQAtwa6AN0WVIKF99PQXyqlZlUKC?scode=ANAAyQcbAAgt1CIfZ1ATQAtwa6AN0','_blank')">
+                        <h5>查看文档</h5>
+                        <svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M28 6H42V20" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 29.4737V39C42 40.6569 40.6569 42 39 42H9C7.34315 42 6 40.6569 6 39V9C6 7.34315 7.34315 6 9 6L18 6" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M25.7998 22.1999L41.0998 6.8999" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cardHolder" id="gscard3">
+                <div>
+                    <img src="src/img/getStarted/gs3.png">
+                    <h3>Web 端设计全家桶</h3>
+                    <h5>为设计师提供的 DDS 完全体使用指南</h5>
+                    <div class="jumpbtn"
+                         onclick="window.open('https://www.figma.com/file/kBBHymZUPgNrzSUL5Iqwkp/%5BDDS%5D-Base-Components?node-id=4506%3A90550&t=vuSw09p1BKfsLGAD-1','_blank')">
+                        <h5>查看文档</h5>
+                        <svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M28 6H42V20" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 29.4737V39C42 40.6569 40.6569 42 39 42H9C7.34315 42 6 40.6569 6 39V9C6 7.34315 7.34315 6 9 6L18 6" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M25.7998 22.1999L41.0998 6.8999" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- 设计系统与工具 -->
+    <div id="tools" class="contentbox">
+        <h1 class="boxtitle">设计系统与工具</h1>
+        <h3 class="boxsubtitle"><b>丰富资产</b>打造更好用更美观的产品和应用</h3>
+        <div id="gscardrow">
+            <div class="cardHolder" id="toolcard1">
+                <div class="toolcard">
+                    <img src="src/img/tools/tools1.png">
+                    <h3>Web 端基础组件库</h3>
+                    <h5>通用组件交互样式及使用规范</h5>
+                    <div class="hitpoint">
+                        <h5><?xml version="1.0" encoding="UTF-8"?><svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M43 11L16.875 37L5 25.1818" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            60+ 基础组件</h5>
+                        <h5><?xml version="1.0" encoding="UTF-8"?><svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M43 11L16.875 37L5 25.1818" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            20000+ 变体</h5>
+                    </div>
+                    <div class="dualbutton">
+                        <div class="jumpbtn"
+                             onclick="window.open('https://www.figma.com/file/kBBHymZUPgNrzSUL5Iqwkp/%5BDDS%5D-Base-Components?node-id=4506%3A90550&t=vuSw09p1BKfsLGAD-1','_blank')">
+                            <h5>立即使用</h5>
+                            <svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M28 6H42V20" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 29.4737V39C42 40.6569 40.6569 42 39 42H9C7.34315 42 6 40.6569 6 39V9C6 7.34315 7.34315 6 9 6L18 6" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M25.7998 22.1999L41.0998 6.8999" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </div>
+
+                        <div class="secondbtn"
+                             onclick="window.open('https://delight.devops.xiaohongshu.com/delight/get-started','_blank')">
+                            <h5>API 站点</h5>
+                            <svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M28 6H42V20" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 29.4737V39C42 40.6569 40.6569 42 39 42H9C7.34315 42 6 40.6569 6 39V9C6 7.34315 7.34315 6 9 6L18 6" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M25.7998 22.1999L41.0998 6.8999" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="cardHolder" id="toolcard2">
+                <div class="toolcard">
+                    <img src="src/img/tools/tools2.png">
+                    <h3>Web 端图表库</h3>
+                    <h5>高频使用的数据可视化套件</h5>
+                    <div class="hitpoint">
+                        <h5><?xml version="1.0" encoding="UTF-8"?><svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M43 11L16.875 37L5 25.1818" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            10+ 常用图表</h5>
+                        <h5><?xml version="1.0" encoding="UTF-8"?><svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M43 11L16.875 37L5 25.1818" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            100+ 场景案例</h5>
+                    </div>
+                    <div class="dualbutton">
+                        <div class="jumpbtn"
+                             onclick="window.open('https://www.figma.com/file/9jsuOxbvAFgIrWx5t1WtSw/%5BDDS%5D-Data-Viz?node-id=0%3A1&t=JKnWMXEzyiIF9gV9-1','_blank')">
+                            <h5>立即使用</h5>
+                            <svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M28 6H42V20" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 29.4737V39C42 40.6569 40.6569 42 39 42H9C7.34315 42 6 40.6569 6 39V9C6 7.34315 7.34315 6 9 6L18 6" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M25.7998 22.1999L41.0998 6.8999" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </div>
+                        <div class="secondbtn"
+                             onclick="window.open('http://delight-charts.devops.xiaohongshu.com/guide/introduction.html','_blank')">
+                            <h5>API 站点</h5>
+                            <svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M28 6H42V20" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 29.4737V39C42 40.6569 40.6569 42 39 42H9C7.34315 42 6 40.6569 6 39V9C6 7.34315 7.34315 6 9 6L18 6" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M25.7998 22.1999L41.0998 6.8999" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cardHolder"  id="toolcard3">
+                <div class="toolcard">
+                    <img src="src/img/tools/tools3.png">
+                    <h3>Web 端页面模板库</h3>
+                    <h5>平台产品通用页面模板和操作流程</h5>
+                    <div class="hitpoint">
+                        <h5><?xml version="1.0" encoding="UTF-8"?><svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M43 11L16.875 37L5 25.1818" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            5+ 典型页面</h5>
+                        <h5><?xml version="1.0" encoding="UTF-8"?><svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M43 11L16.875 37L5 25.1818" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            20+ 常用功能</h5>
+                    </div>
+                    <div class="dualbutton">
+                        <div class="jumpbtn"
+                             onclick="window.open('https://www.figma.com/file/kBBHymZUPgNrzSUL5Iqwkp/%5BDDS%5D-Base-Components?node-id=5715%3A92009&t=vuSw09p1BKfsLGAD-1','_blank')">
+                            <h5>立即使用</h5>
+                            <svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M28 6H42V20" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 29.4737V39C42 40.6569 40.6569 42 39 42H9C7.34315 42 6 40.6569 6 39V9C6 7.34315 7.34315 6 9 6L18 6" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M25.7998 22.1999L41.0998 6.8999" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </div>
+                        <div class="secondbtn"
+                             onclick="window.open('https://delight-material.devops.xiaohongshu.com/home','_blank')">
+                            <h5>API 站点</h5>
+                            <svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M28 6H42V20" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 29.4737V39C42 40.6569 40.6569 42 39 42H9C7.34315 42 6 40.6569 6 39V9C6 7.34315 7.34315 6 9 6L18 6" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M25.7998 22.1999L41.0998 6.8999" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- 业务物料库 -->
+    <div id="teamlib" class="contentbox">
+        <h1 class="boxtitle">业务物料库</h1>
+        <h3 class="boxsubtitle">来自不同<b>业务沉淀</b>的设计资产</h3>
+        <div id="teamcardrow">
+            <div class="teamcard" id="teamcard1">
+                <div class="titlewbtn"
+                        onclick="window.open('https://www.figma.com/file/RHOAmnji6gUXdujT77HWTz/RedKIT?node-id=4411%3A33016','_blank')">
+                    <h3>电商平台</h3>
+                    <svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M28 6H42V20" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 29.4737V39C42 40.6569 40.6569 42 39 42H9C7.34315 42 6 40.6569 6 39V9C6 7.34315 7.34315 6 9 6L18 6" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M25.7998 22.1999L41.0998 6.8999" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </div>
+                <h5>ARK、鹰眼等一站式平台</h5>
+                <p>#数据 #CRM</p>
+                <div class="avatartag">
+                    <img class="avatarsmall" src="src/img/avatar/xn.png">
+                    <p>雪奈</p>
+                </div>
+            </div>
+
+            <div class="teamcard" id="teamcard2">
+                <div class="titlewbtn"
+                     onclick="window.open('https://www.figma.com/file/RHOAmnji6gUXdujT77HWTz/RedKIT?node-id=4411%3A33016','_blank')">
+                    <h3>企业效率</h3>
+                    <svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M28 6H42V20" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 29.4737V39C42 40.6569 40.6569 42 39 42H9C7.34315 42 6 40.6569 6 39V9C6 7.34315 7.34315 6 9 6L18 6" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M25.7998 22.1999L41.0998 6.8999" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </div>
+                <h5>Red City、OA 等平台</h5>
+                <p>#门户 #社区 #CRM #审批 #移动端</p>
+
+                <div class="avatargroup">
+                    <div class="avatartag">
+                        <img class="avatarsmall" src="src/img/avatar/zz.png">
+                        <p>珍珍</p>
+                    </div>
+                    <div class="avatartag">
+                        <img class="avatarsmall" src="src/img/avatar/lc.png">
+                        <p>连城</p>
+                    </div>
+                    <div class="avatartag">
+                        <img class="avatarsmall" src="src/img/avatar/mb.png">
+                        <p>梅宝</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="teamcard" id="teamcard3">
+                <div class="titlewbtn"
+                     onclick="window.open('https://www.figma.com/file/RHOAmnji6gUXdujT77HWTz/RedKIT?node-id=4411%3A33016','_blank')">
+                    <h3>增长</h3>
+                    <svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M28 6H42V20" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 29.4737V39C42 40.6569 40.6569 42 39 42H9C7.34315 42 6 40.6569 6 39V9C6 7.34315 7.34315 6 9 6L18 6" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M25.7998 22.1999L41.0998 6.8999" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </div>
+                <h5>投放增长、RNFT 等平台</h5>
+                <p>#素材预览 #数据 #CRM</p>
+                <div class="avatartag">
+                    <img class="avatarsmall" src="src/img/avatar/hk.png">
+                    <p>汉可</p>
+                </div>
+            </div>
+
+            <div class="teamcard" id="teamcard4">
+                <div class="titlewbtn"
+                     onclick="window.open('https://www.figma.com/file/ZWvNNtnu9fFFWmdVFDz2L6/%E8%87%AA%E7%A0%94%E6%96%87%E6%A1%A3%E5%B7%A5%E5%85%B7_PC?node-id=11%3A944&t=eAO560k3iIXL1KTK-1','_blank')">
+                    <h3>文档工具</h3>
+                    <svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M28 6H42V20" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 29.4737V39C42 40.6569 40.6569 42 39 42H9C7.34315 42 6 40.6569 6 39V9C6 7.34315 7.34315 6 9 6L18 6" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M25.7998 22.1999L41.0998 6.8999" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </div>
+                <h5>自研文档工具</h5>
+                <p>#编辑器 #CMS </p>
+                <div class="avatargroup">
+                    <div class="avatartag">
+                        <img class="avatarsmall" src="src/img/avatar/zz.png">
+                        <p>珍珍</p>
+                    </div>
+                    <div class="avatartag">
+                        <img class="avatarsmall" src="src/img/avatar/ke.png">
+                        <p>卡恩</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- 设计研习社 -->
+    <div id="designschool" class="contentbox">
+        <img id="schooltitletag" src = "src/img/school/titletag.png" alt="Share SVG">
+        <h1 class="boxtitle">设计研习社</h1>
+        <h3 class="boxsubtitle">学术研究与对比分析打造更<b>优质可靠</b>的设计方案</h3>
+        <div class="schoolcardrow">
+            <div class="schoolcard" id="schoolcard1">
+                <img src="src/img/school/school1.png">
+                <div class="schoolcontent">
+                    <div class="titlewbtn"
+                         onclick="window.open('https://www.figma.com/file/kBBHymZUPgNrzSUL5Iqwkp/%5BDDS%5D-Base-Components?node-id=206%3A1390&t=vuSw09p1BKfsLGAD-1','_blank')">
+                        <h4 class="schoolcontenttitle">深度挖掘色盘生成机制</h4>
+                        <svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M28 6H42V20" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 29.4737V39C42 40.6569 40.6569 42 39 42H9C7.34315 42 6 40.6569 6 39V9C6 7.34315 7.34315 6 9 6L18 6" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M25.7998 22.1999L41.0998 6.8999" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <p class="schoolcontentbrief">你说的黑是什么黑？</p>
+                </div>
+            </div>
+
+            <div class="schoolcard" id="schoolcard2">
+                <img src="src/img/school/school2.png">
+                <div class="schoolcontent">
+                     <div class="titlewbtn"
+                         onclick="window.open('https://bdf69europ.feishu.cn/docs/doccnoYEzTbSAEfta63UyccweQe','_blank')">
+                        <h4 class="schoolcontenttitle">如何做好用户引导</h4>
+                        <svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M28 6H42V20" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 29.4737V39C42 40.6569 40.6569 42 39 42H9C7.34315 42 6 40.6569 6 39V9C6 7.34315 7.34315 6 9 6L18 6" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M25.7998 22.1999L41.0998 6.8999" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <p class="schoolcontentbrief">“从入门到放弃”</p>
+                </div>
+            </div>
+
+            <div class="schoolcard" id="schoolcard3">
+                <img src="src/img/school/school3.png">
+                <div class="schoolcontent">
+                    <div class="titlewbtn"
+                         onclick="window.open('https://doc.weixin.qq.com/doc/w3_AbwAXQZ9ABc1y0KOnEvRxK55h0C1t?scode=ANAAyQcbAAgPAfGRFSATQAtwa6AN0','_blank')">
+                        <h4 class="schoolcontenttitle">反馈控件研究</h4>
+                        <svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M28 6H42V20" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 29.4737V39C42 40.6569 40.6569 42 39 42H9C7.34315 42 6 40.6569 6 39V9C6 7.34315 7.34315 6 9 6L18 6" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M25.7998 22.1999L41.0998 6.8999" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <p class="schoolcontentbrief">“你吵到我的眼睛了”</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="schoolcardrow">
+            <div class="schoolcard" id="schoolcard4">
+                <img src="src/img/school/school4.png">
+                <div class="schoolcontent">
+                    <div class="titlewbtn"
+                         onclick="window.open('https://www.figma.com/file/kBBHymZUPgNrzSUL5Iqwkp/%5BDDS%5D-Base-Components?node-id=8992%3A94311&t=vuSw09p1BKfsLGAD-1','_blank')">
+                        <h4 class="schoolcontenttitle">文案设计指南</h4>
+                        <svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M28 6H42V20" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 29.4737V39C42 40.6569 40.6569 42 39 42H9C7.34315 42 6 40.6569 6 39V9C6 7.34315 7.34315 6 9 6L18 6" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M25.7998 22.1999L41.0998 6.8999" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <p class="schoolcontentbrief">换一个词，让转化率提升 14%</p>
+                </div>
+            </div>
+
+            <div class="schoolcard" id="schoolcard5">
+                <img src="src/img/school/school5.png">
+                <div class="schoolcontent">
+                    <div class="titlewbtn"
+                         onclick="window.open('https://doc.weixin.qq.com/doc/w3_AQ0AXwZ9ABcyGChoztjT3aCbJ4apl?scode=ANAAyQcbAAgcmQjvV0ATQAtwa6AN0','_blank')">
+                        <h4 class="schoolcontenttitle">交互自查表</h4>
+                        <svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M28 6H42V20" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 29.4737V39C42 40.6569 40.6569 42 39 42H9C7.34315 42 6 40.6569 6 39V9C6 7.34315 7.34315 6 9 6L18 6" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M25.7998 22.1999L41.0998 6.8999" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <p class="schoolcontentbrief">自己发现 90% 的交互问题</p>
+                </div>
+            </div>
+
+            <div class="schoolcard" id="schoolcard6">
+                <img src="src/img/school/school6.png">
+                <div class="schoolcontent">
+                    <div class="titlewbtn"
+                         onclick="window.open('https://www.yuque.com/wikidesign/ykf0s9','_blank')">
+                        <h4 class="schoolcontenttitle">方法论合集</h4>
+                        <svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M28 6H42V20" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 29.4737V39C42 40.6569 40.6569 42 39 42H9C7.34315 42 6 40.6569 6 39V9C6 7.34315 7.34315 6 9 6L18 6" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M25.7998 22.1999L41.0998 6.8999" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <p class="schoolcontentbrief">大厂设计师们的复盘</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- 更多资源 -->
+    <div id="resource" class="contentbox">
+        <h1 class="boxtitle">更多资源</h1>
+        <div class="resourcecardrow">
+            <div class="resourcecard" id="resourcecard1">
+                <img src="src/img/resource/r1.png">
+                <div class="titlewbtn"
+                     onclick="window.open('https://www.figma.com/file/kBBHymZUPgNrzSUL5Iqwkp/%5BDDS%5D-Base-Components?node-id=18518%3A115678&t=vuSw09p1BKfsLGAD-1','_blank')">
+                    <h4 class="schoolcontenttitle">红薯 IP 使用指南</h4>
+                    <svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M28 6H42V20" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 29.4737V39C42 40.6569 40.6569 42 39 42H9C7.34315 42 6 40.6569 6 39V9C6 7.34315 7.34315 6 9 6L18 6" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M25.7998 22.1999L41.0998 6.8999" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </div>
+            </div>
+
+            <div class="resourcecard" id="resourcecard2">
+                <img src="src/img/resource/r2.png">
+                <div class="titlewbtn"
+                     onclick="window.open('https://doc.weixin.qq.com/doc/w3_ARcAaAZ_ACAmOFJm9bKR1q1I8A8nn?scode=ANAAyQcbAAg0HRSZDkATQAtwa6AN0','_blank')">
+                    <h4 class="schoolcontenttitle">B端设计师对接表</h4>
+                    <svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M28 6H42V20" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 29.4737V39C42 40.6569 40.6569 42 39 42H9C7.34315 42 6 40.6569 6 39V9C6 7.34315 7.34315 6 9 6L18 6" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M25.7998 22.1999L41.0998 6.8999" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </div>
+            </div>
+
+            <div class="resourcecard" id="resourcecard3">
+                <img src="src/img/resource/r3.png">
+                <div class="titlewbtn"
+                     onclick="window.open('https://www.figma.com/file/GK0P3NuhFJ5jr1YfNeQkaa/Components?node-id=15%3A164&t=ypgqZm6D0wntCXbY-1','_blank')">
+                    <h4 class="schoolcontenttitle">移动端设计系统</h4>
+                    <svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M28 6H42V20" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 29.4737V39C42 40.6569 40.6569 42 39 42H9C7.34315 42 6 40.6569 6 39V9C6 7.34315 7.34315 6 9 6L18 6" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M25.7998 22.1999L41.0998 6.8999" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <!-- 关于我们 -->
+    <div id="about" class="contentbox">
+        <h1 class="boxtitle">关于我们</h1>
+        <div class="aboutcardrow">
+            <div class="aboutcard" id="aboutcard1">
+                <img src="src/img/avatar/placeholder.png">
+                <h4 class="aboutname">薯名</h4>
+            </div>
+            <div class="aboutcard" id="aboutcard2">
+                <img src="src/img/avatar/placeholder.png">
+                <h4 class="aboutname">薯名</h4>
+            </div>
+            <div class="aboutcard" id="aboutcard3">
+                <img src="src/img/avatar/placeholder.png">
+                <h4 class="aboutname">薯名</h4>
+            </div>
+            <div class="aboutcard" id="aboutcard4">
+                <img src="src/img/avatar/placeholder.png">
+                <h4 class="aboutname">薯名</h4>
+            </div>
+            <div class="aboutcard" id="aboutcard5">
+                <img src="src/img/avatar/placeholder.png">
+                <h4 class="aboutname">薯名</h4>
+            </div>
+            <div class="aboutcard" id="aboutcard6">
+                <img src="src/img/avatar/placeholder.png">
+                <h4 class="aboutname">薯名</h4>
+            </div>
+
+        </div>
+
+        <div class="aboutcardrow">
+            <div class="aboutcard" id="aboutcard7">
+                <img src="src/img/avatar/placeholder.png">
+                <h4 class="aboutname">薯名</h4>
+            </div>
+            <div class="aboutcard" id="aboutcard8">
+                <img src="src/img/avatar/placeholder.png">
+                <h4 class="aboutname">薯名</h4>
+            </div>
+            <div class="aboutcard" id="aboutcard9">
+                <img src="src/img/avatar/placeholder.png">
+                <h4 class="aboutname">薯名</h4>
+            </div>
+            <div class="aboutcard" id="aboutcard10">
+                <img src="src/img/avatar/placeholder.png">
+                <h4 class="aboutname">薯名</h4>
+            </div>
+            <div class="aboutcard" id="aboutcard11">
+                <img src="src/img/avatar/placeholder.png">
+                <h4 class="aboutname">薯名</h4>
+            </div>
+            <div class="aboutcard" id="aboutcard12">
+                <img src="src/img/avatar/placeholder.png">
+                <h4 class="aboutname">薯名</h4>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div id="snackbar">网址已复制至剪切板</div>
+</body>
+
+
+</html>

@@ -1,0 +1,392 @@
+.contentbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 130px;
+}
+
+#topNav {
+    /* Nav/Top */
+    box-sizing: border-box; 
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 14px 0px;
+
+    width: 100%;
+    height: 60px;
+    background: #FFFFFF;
+
+    /* Line&Mask/divider */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+#topNavContent {
+    position: absolute;
+    left: calc(50% - 590px);
+    width: 1180px;
+    height: 32px;
+}
+
+#topNav img {
+    position: absolute;
+    width: 107px;
+    height: 32px;
+}
+
+#topNav button {
+    position: absolute;
+    right: 0px;
+}
+
+
+#hero {
+    width: 100%;
+    height: 545px;
+    background-color: #f9f9f9;
+}
+
+
+#hero h1 {
+    text-align: center;
+    padding-top: 40px;
+}
+
+#hero button {
+    margin: auto;
+    position: absolute;
+    left: calc(50% - 72px);
+}
+
+#hero img {
+    position: absolute;
+    top: 120px;
+    transform: scale(0.5);
+}
+
+
+.cardHolder {
+    width: 380px;
+    height: 388px;
+    display: inline-block;
+    margin-right: 20px;
+
+    /* Neutral/white */
+    background: #FFFFFF;
+
+    /* shadow/inset */
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2), 0px 1px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+}
+
+
+.cardHolder img {
+    width: 380px;
+    height: 200px;
+    border-radius: 8px 8px 0 0;
+}
+
+
+.cardHolder h3 {
+    margin: 24px 0 12px 32px !important;
+    text-align: left;
+}
+
+.cardHolder h5 {
+    margin: 0 0 24px 32px;
+    text-align: left;
+}
+
+.cardHolder button {
+    margin: 0 0 32px 32px;
+}
+
+
+
+.hitpoint h5 {
+    margin: 0 0 12px 32px !important;
+    text-align: left;
+}
+
+
+.toolcard h5 {
+    margin: 0 0 16px 32px;
+}
+
+
+#tools .cardHolder {
+    height: 460px;
+}
+
+
+.dualbutton {
+    padding-top: 12px;
+    display: flex;
+    flex-direction: row;
+    width: 380px;
+    height: 68px;
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+#tools {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 130px;
+}
+
+
+.boxtitle {
+    margin: 0px;
+}
+
+.boxsubtitle {
+    margin: 20px 0 64px;
+}
+
+
+
+
+.teamcard {
+    padding: 24px !important;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2), 0px 1px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    width: 280px;
+}
+
+#teamcard1 {
+    border-top: 4px solid #F7C600;
+}
+
+#teamcard2 {
+    border-top: 4px solid #E459BD;
+}
+
+#teamcard3 {
+    border-top: 4px solid #A06DFF;
+}
+
+#teamcard4 {
+    border-top: 4px solid #3C66FF;
+}
+
+
+
+
+.teamcard h3 {
+    margin: 0 0 4px 0;
+    text-align: left;
+}
+
+.teamcard h5 {
+    margin: 0 0 8px 0;
+    text-align: left;
+}
+
+.teamcard p {
+    margin: 0 0 20px 0;
+    text-align: left;
+}
+
+.avatartag {
+    display: flex;
+    padding: 6px 8px !important;
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    align-items: center;
+    box-sizing: border-box;
+    width: 76px;
+}
+
+.avatartag p {
+    margin: 0 0 0 6px;
+}
+
+.avatarsmall {
+    width: 20px !important;
+    height: 20px !important;
+
+    border: 0.5px solid rgba(0, 0, 0, 0.05);
+    border-radius: 100px;
+}
+
+
+#teamcardrow {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 1180px;
+}
+
+
+.avatargroup {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+}
+
+
+
+.schoolcard {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 16px;
+    width: 380px;
+
+    background: #FFFFFF;
+    /* shadow/inset */
+
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2), 0px 1px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+
+.schoolcard img {
+    width: 56px;
+    height: 56px;
+    border-radius: 8px;
+}
+
+.schoolcontent {
+    padding: 0px;
+    gap: 4px;
+    width: 276px;
+    height: 56px;
+}
+
+.schoolcontenttitle h4 {
+    height: 28px;
+}
+
+.schoolcontentbrief {
+    height: 24px;
+    margin-top: 4px;
+}
+
+.schoolcardrow {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 1180px;
+    margin-bottom: 20px;
+}
+
+#resource h1 {
+    margin-bottom: 64px;
+}
+
+.resourcecardrow {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 1180px;
+    margin-bottom: 20px;
+}
+
+.resourcecard {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 16px;
+    width: 380px;
+
+    background: #FFFFFF;
+    /* shadow/inset */
+
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2), 0px 1px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.resourcecard img {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.resourcecontenttitle {
+    padding: 6px 0;
+}
+
+#resource {
+    margin-bottom: 80px;
+}
+
+.aboutcardrow {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 1180px;
+    margin-bottom: 20px;
+}
+
+#about {
+    background: #030303;
+    padding-bottom: 200px;
+}
+
+#about h1 {
+    color: #fff;
+    margin-bottom: 64px;
+}
+
+#about h4 {
+    color: #fff;
+}
+
+.aboutcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 20px;
+
+    width: 180px;
+    height: 228px;
+
+    background: #121212;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.aboutcard img {
+    width: 180px;
+    height: 180px;
+}
