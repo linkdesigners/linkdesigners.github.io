@@ -1,10 +1,6 @@
 function copyURL(){
-    if (!window.getSelection) {
-        alert('Please copy the URL from the location bar.');
-        return;
-        }
         const dummy = document.createElement('p');
-        dummy.textContent = window.location.href;
+        dummy.textContent = "https://linkdesigners.github.io/";
         document.body.appendChild(dummy);
 
         const range = document.createRange();
