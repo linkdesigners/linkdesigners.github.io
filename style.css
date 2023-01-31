@@ -429,9 +429,6 @@ b {
   height: 228px;
   background: #121212;
   border-radius: 8px;
-  flex: none;
-  order: 0;
-  flex-grow: 1;
 }
 .aboutcard img {
   width: 180px;
