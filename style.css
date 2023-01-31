@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
 }
 h1,
 h2,
@@ -497,6 +498,12 @@ b {
   padding-bottom: 10px;
 }
 #aboutcard8 img {
+  margin-top: -20px;
+  height: 190px;
+  width: 190px;
+  padding-bottom: 10px;
+}
+#aboutcard12 img {
   margin-top: -20px;
   height: 190px;
   width: 190px;
