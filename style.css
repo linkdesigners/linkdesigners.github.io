@@ -169,7 +169,7 @@ b {
   height: 60px;
   border-bottom: 1px solid rgba(0,0,0,0.08);
   position: fixed;
-  background-color: rgba(255,255,255,0.75);
+  background-color: rgba(255,255,255,0.62);
   backdrop-filter: saturate(140%) blur(36px);
   z-index: 1;
 }
@@ -410,7 +410,7 @@ b {
 }
 #about {
   background: #030303;
-  padding-bottom: 160px;
+  padding-bottom: 60px;
 }
 #about h1 {
   color: #fff;
