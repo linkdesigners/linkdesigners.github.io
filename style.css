@@ -506,6 +506,18 @@ b {
   width: 190px;
   padding-bottom: 10px;
 }
+#aboutcard14 img {
+  height: 170px;
+  width: 170px;
+  padding-bottom: 10px;
+}
+#aboutcard15 img {
+  margin-top: -15px;
+  padding-bottom: 15px;
+  height: 185px;
+  width: 185px;
+  margin-left: -15px;
+}
 @-moz-keyframes fadein {
   from {
     top: 0;
