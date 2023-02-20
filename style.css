@@ -535,6 +535,9 @@ b {
   margin-top: -10px;
   padding-bottom: 10px;
 }
+#aboutcard20 img {
+  margin-left: 30px;
+}
 @-moz-keyframes fadein {
   from {
     top: 0;
