@@ -65,6 +65,38 @@ b {
   background: #202020;
   cursor: pointer;
 }
+.sharebtn1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 16px;
+  gap: 6px;
+  border-radius: 4px;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  height: 36px;
+  background: #fff;
+  -webkit-text-fill-color: #000;
+  border: 0.5px solid rgba(0,0,0,0.1);
+  margin-left: 16px !important;
+  transition: 0.08s;
+}
+.sharebtn1 svg {
+  width: 16px;
+  height: 16px;
+}
+.sharebtn1 path {
+  stroke: rgba(0,0,0,0.671);
+}
+.sharebtn1 h5 {
+  margin: 0px !important;
+}
+.sharebtn1:hover {
+  background: #f3f4f5;
+  cursor: pointer;
+}
 .jumpbtn {
   display: flex;
   flex-direction: column;
@@ -255,8 +287,10 @@ b {
   padding-top: 12px;
   display: flex;
   flex-direction: row;
-  width: 380px;
   height: 68px;
+}
+#herodual {
+  margin-right: 16px;
 }
 .teamcard {
   padding: 24px;
