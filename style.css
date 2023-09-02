@@ -578,6 +578,13 @@ b {
   margin-top: -10px;
   padding-bottom: 10px;
 }
+#aboutcard24 img {
+  height: 180px;
+  width: 180px;
+  margin-left: -20px;
+  margin-top: -10px;
+  padding-bottom: 10px;
+}
 @-moz-keyframes fadein {
   from {
     top: 0;
