@@ -595,6 +595,11 @@ b {
   width: 170px;
   padding-bottom: 10px;
 }
+#aboutcard9 img {
+  height: 170px;
+  width: 170px;
+  padding-bottom: 10px;
+}
 @-moz-keyframes fadein {
   from {
     top: 0;
