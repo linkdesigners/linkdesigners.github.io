@@ -600,6 +600,12 @@ b {
   width: 170px;
   padding-bottom: 10px;
 }
+#aboutcard12 img {
+  height: 135px;
+  width: 135px;
+  padding-top: 47px;
+  padding-bottom: 15px;
+}
 @-moz-keyframes fadein {
   from {
     top: 0;
